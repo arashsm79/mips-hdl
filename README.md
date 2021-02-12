@@ -1,7 +1,7 @@
 # MIPS Single-Cycle Multi-Cycle Implementation
 > Single-Cycle and Multi-Cycle implementation of a subset of MIPS instruction set. 
 
-An impplementation of 16-bit MIPS ISA, writtern in Verilog 2005 (IEEE Standard 1364-2005). 
+An impplementation of 16-bit MIPS ISA, written in Verilog 2005 (IEEE Standard 1364-2005). 
 
 ## Table of Contents
 - [Instructions](#Instructions)
@@ -10,7 +10,7 @@ An impplementation of 16-bit MIPS ISA, writtern in Verilog 2005 (IEEE Standard 1
 
 ## Instructions
 
-** R-Type **
+**R-Type**
 
 | 15 .. 12 | 11 .. 9 | 6 .. 8 | 5 .. 3 | 2 .. 0 |
 | ---- | ---- | ---- | ---- | ---- | 
@@ -19,7 +19,7 @@ An impplementation of 16-bit MIPS ISA, writtern in Verilog 2005 (IEEE Standard 1
 
 Instructions include: add, sub, and, or, xor, nor, slt
 
-** I-Type **
+**I-Type**
 
 | 15 .. 12 | 11 .. 9 | 6 .. 8 | 5 .. 0 |
 | ---- | ---- | ---- | ---- |
@@ -27,7 +27,7 @@ Instructions include: add, sub, and, or, xor, nor, slt
 
 Instructions include: addi, andi, ori, subi, lhw, shw, beq, bne, blt, bgt
 
-** J-Type **
+**J-Type**
 
 | 15 .. 12 | 11 .. 0 |
 | ---- | ---- |
