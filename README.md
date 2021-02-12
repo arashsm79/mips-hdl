@@ -37,7 +37,7 @@ Instructions include: jmp
 
 ## How It Works
 
-Each modules is located in its own file.
+Each module is located in its own file.
 
 The single-cycle implementation closely but not entirely follows the below data path from the book Computer Organization, Design, and Architecture:
 
